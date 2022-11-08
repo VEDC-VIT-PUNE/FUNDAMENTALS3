@@ -1665,3 +1665,102 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+/*--------------------------------------------------------------
+# about1
+--------------------------------------------------------------*/
+
+.about1 {
+    background: url("../img/about1-bg.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+}
+
+.about1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.75);
+    z-index: 9;
+}
+
+.about1 .container {
+    position: relative;
+    z-index: 10;
+}
+
+.about1 .content {
+    padding: 30px 30px 30px 0;
+}
+
+.about1 .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    color: black;
+    margin-bottom: 30px;
+    font-family: "Gotham Black", "Sans-Serif";
+}
+
+.about1 .content p {
+    margin-bottom: 30px;
+}
+
+.about1 .content .about1-btn {
+    display: inline-block;
+    background: rgba(39, 26, 46);
+    padding: 6px 44px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.about1 .content .about1-btn i {
+    font-size: 18px;
+    position: absolute;
+    right: 18px;
+    top: 9px;
+}
+
+.about1 .content .about1-btn:hover {
+    background: rgba(39, 26, 46, 0.95);
+}
+
+.about1 .icon-boxes .icon-box {
+    margin-top: 30px;
+}
+
+.about1 .icon-boxes .icon-box i {
+    font-size: 40px;
+    color: rgba(39, 26, 46);
+    margin-bottom: 10px;
+    font-family: "Gotham Black", "Sans-Serif";
+}
+
+.about1 .icon-boxes .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    font-family: "Gotham Black", "Sans-Serif";
+    color: black;
+}
+
+.about1 .icon-boxes .icon-box p {
+    font-size: 15px;
+    color: black;
+}
+
+@media (max-width: 1200px) {
+    .about1 .content {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .about1 {
+        text-align: center;
+    }
+}
