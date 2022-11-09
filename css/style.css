@@ -1670,7 +1670,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 .about1 {
-    background: url("../img/about1-bg.jpg") center center no-repeat;
+    /* background: url("../img/bg2.png") center center no-repeat;     */
     background-size: cover;
     padding: 60px 0;
     position: relative;
@@ -1683,7 +1683,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgb(13, 5, 85);
+    opacity: 5%;
     z-index: 9;
 }
 
@@ -1701,7 +1702,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 34px;
     color: black;
     margin-bottom: 30px;
-    font-family: "Gotham Black", "Sans-Serif";
+    font-family: "myFont", "Sans-Serif";
 }
 
 .about1 .content p {
@@ -1737,14 +1738,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 40px;
     color: rgba(39, 26, 46);
     margin-bottom: 10px;
-    font-family: "Gotham Black", "Sans-Serif";
+    font-family: "myFont", "Sans-Serif";
 }
 
 .about1 .icon-boxes .icon-box h4 {
     font-size: 20px;
     font-weight: 700;
     margin: 0 0 10px 0;
-    font-family: "Gotham Black", "Sans-Serif";
+    font-family: "myFont", "Sans-Serif";
     color: black;
 }
 
